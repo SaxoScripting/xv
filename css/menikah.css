@@ -494,6 +494,33 @@ body.preloader-site {
 
 }
 
+.btn-forms {
+  background-color: #800080;
+  width:  210px;
+  height: 65px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;  
+  border-left: 1px solid #800080;
+  border-right: 1px solid #800080;
+  border-top: 1px solid #800080;
+  border-bottom: 1px solid #800080;
+  align-items: center;
+  margin: 1rem;
+}
+.btn-forms:hover {
+  color: white;
+  background-color: #800080;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 2px solid #800080;
+  width:  210px;
+  height: 65px;
+  align-items: center;
+  margin: 1rem;
+}
+
+
 /* BOTOM ON HOVER*/
 .btn-cta:hover {
   color:white;
