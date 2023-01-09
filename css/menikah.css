@@ -75,11 +75,19 @@ html {
   background: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
+.foto{
+
+  height: 600px;
+}
 
 @media (max-width: 599px) {
   .hero .hero-foot {
     display: none;
   }
+  .foto{
+
+  height: 400px;
+}
 }
 
 .hero .hero-foot .hero-foot--wrapper {
