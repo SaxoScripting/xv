@@ -38,8 +38,8 @@ html {
 
 
 .hero {
-  background-image: url('../image/Noche_azul.jpg');
-  background: linear-gradient(rgba(59, 131, 230, 0.65), rgba(59, 131, 189, 0.65)), rgba(0, 0, 0, 0.55) url('../image/Noche_azul.jpg') no-repeat;
+  background-image: url('../image/mari.jpg');
+  background: linear-gradient(rgba(59, 131, 230, 0.65), rgba(59, 131, 189, 0.65)), rgba(0, 0, 0, 0.55) url('../image/mari.jpg') no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -112,7 +112,7 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
   color: #03045e;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #c28285;
+  
 }
 
 
@@ -131,12 +131,12 @@ html {
 }
 
 .main-content .section-dark {
-  background-color: #48cae4;
+  background-color: white;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
-  background-color: #00b4d8;
+  background-color: white;
   padding: 80px 40px;
 }*/
 
@@ -424,7 +424,7 @@ vertical-align: middle;
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #48cae4;
+  background-color: white;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -486,13 +486,13 @@ body.preloader-site {
 
 }
 
-
+/* BOTOM ON HOVER*/
 .btn-cta:hover {
   color:white;
-  background-color: #bf7877;
+  background-color: ;
   font-size: 1.2rem;
   border-radius: 10px;
-  border: 2px solid #bf7877;
+  border: 2px solid ;
   width:  210px;
   height: 65px;
   align-items: center;
@@ -554,8 +554,8 @@ body.preloader-site {
 
 
 .dusty-pink {color: #D8A9A8}
-.dusty-pink-lighter {color: #00b4d8}
-.dusty-pink-lightest {color: #48cae4}
+.dusty-pink-lighter {color: white}
+.dusty-pink-lightest {color: white}
 .dusty-pink-darker {color: #BC8887}
 .dusty-pink-darkest {color: #03045e}
 
